@@ -1,0 +1,119 @@
+body{
+    /* font-family: VerlagBook; */
+}
+/* #2b8aea  */
+.nav_logo img{
+    width: 190px;
+    height: 55px;
+}
+.nav_logo{
+    margin: 15px 35px 15px 50px;
+}
+.nav_item_left a{
+    margin-left: 30px;
+}
+.nav_item_left{
+    font-size: 16px;
+}
+.nav_item_right a{
+    margin-left: 50px;
+}
+.fa{
+    font-size: 30px;
+}
+.nav_item_right{
+    font-size: 16px;
+    margin-right: 160px;
+}
+a:hover{
+    text-decoration: none;
+    color: #1467A4;
+}
+a:visited {
+    color: #1467A4;
+}
+/* .nav_item_right img:before{
+   content: "\f103";
+   position: absolute;
+   left: 20px;
+   width: 20px;
+   height: 20px;
+} */
+.nav_item_left:hover a ::after{
+    background: #37a000;
+    bottom: 10px;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    width: 50px;
+}
+/* ----------------------   nav bar --------------- */
+/* ----------------------   title --------------- */
+.carousel-item img{
+    position: relative;
+    right: -550px;
+    width: 790px;
+    height: 830px;
+}
+.carousel-caption{
+    color: #000;
+    text-align: left;
+    left: 40px;
+    top: 200px;
+}
+.carousel-caption h1{
+    font-family: VerlagBold;
+    font-size: 76px;
+    line-height: 95%;
+    letter-spacing: -0.03em;
+    color: #0697D4!important;
+    margin-bottom: 30px;
+}
+.carousel-caption p{
+    font-family: VerlagBook;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #1467A4;
+    margin-bottom: 30px;
+}
+.carousel-caption button{
+    font-family: VerlagBook;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #0697D4;
+    background: #0697d433;
+    border-radius: 50px;
+    padding: 17px 29px;
+    margin-right: 10px;
+    border: 1px;
+    transition: all .4s ease-in-out;
+    width: 240px;
+}
+.carousel-caption button:hover{
+    color: #fff;
+    background: #0697D4;
+    box-shadow: 0px 2px 3px #22222257;
+}
+.carousel-caption div{
+    margin-left: 50px;
+}
+.carousel_controiler{
+    width: 20px;
+    height: 20px;
+    color: #0697D4;
+    top: 730px;
+    transition: .3s ;
+}
+.carousel_controiler:hover{
+    color: #1467A4;
+}
+.carousel-control-prev{
+    left: 48%;
+}
+.carousel-control-next{
+    right: 48%;
+}
